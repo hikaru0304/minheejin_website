@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@font-face {
+    font-family: 'genty';
+    src: url('GentyDemo-Regular.woff');
+}
+
+header{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    overflow-x: hidden;
+}
+.banner{
+    width: 100%;
+    height: 381px;
+    background-image: url('img/video_banner.png');
+    z-index: 20;
+    border: 1px solid red;
+}
+nav{
+    height: 100px;
+    background-color: #E7DEFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    left: 250px;
+}
+nav ul li{}
+nav ul li a{
+    display: block;
+    width: 180px;
+    text-align: center;
+    font-family:  'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 28px;
+    letter-spacing: -0.6px;
+}
+
+ul > .intro{
+    font-family: 'genty';
+}
+.name{
+    width: 334px;
+    height: 227px;
+    float: left;
+    margin-left: 250px;
+    background-color: #38403B;
+}
+.min{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 32px;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 25px;
+    
+}
+.birth{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 32px;
+    color: #fff;
+    font-weight: 300;
+    margin-left: 25px;
+}
+.profile{
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 25px;
+}
+.interview>p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    margin-top: 550px;
+
+}
+footer{
+    height: 180px;
+    background-color: #5DC0E5;
+    margin-top: 2000px;
+}
+
+
+.sub01_sec{
+    position: relative;
+}
